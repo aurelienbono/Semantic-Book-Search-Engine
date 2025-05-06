@@ -16,7 +16,7 @@ class SemanticSearchEngine:
 
     def __init__(self):
         self.client = client
-        self.path_data = 'data/generated_products_by_theme.json'
+        self.path_data = 'data/generate_data_book_json_version.json'
         self.index_name = 'books_index'
 
         # Initialiser le client Elasticsearch
