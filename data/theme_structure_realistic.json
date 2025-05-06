@@ -1,0 +1,190 @@
+[
+  {
+    "id": 1,
+    "name": "Books",
+    "label": "Books",
+    "mobileIconUrl": "https://example.com/icons/books.png",
+    "children": [
+      {
+        "id": 101,
+        "name": "Novels",
+        "label": "Novels"
+      },
+      {
+        "id": 102,
+        "name": "Science Fiction",
+        "label": "Science Fiction"
+      },
+      {
+        "id": 103,
+        "name": "Fantasy",
+        "label": "Fantasy"
+      },
+      {
+        "id": 104,
+        "name": "Biographies",
+        "label": "Biographies"
+      },
+      {
+        "id": 105,
+        "name": "Non-Fiction",
+        "label": "Non-Fiction"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "eBooks",
+    "label": "eBooks",
+    "mobileIconUrl": "https://example.com/icons/ebooks.png",
+    "children": [
+      {
+        "id": 201,
+        "name": "Technology",
+        "label": "Technology"
+      },
+      {
+        "id": 202,
+        "name": "Health",
+        "label": "Health"
+      },
+      {
+        "id": 203,
+        "name": "Cooking",
+        "label": "Cooking"
+      },
+      {
+        "id": 204,
+        "name": "Travel",
+        "label": "Travel"
+      },
+      {
+        "id": 205,
+        "name": "Self-Help",
+        "label": "Self-Help"
+      },
+      {
+        "id": 206,
+        "name": "Business",
+        "label": "Business"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "AudioBooks",
+    "label": "AudioBooks",
+    "mobileIconUrl": "https://example.com/icons/audiobooks.png",
+    "children": [
+      {
+        "id": 301,
+        "name": "Motivational",
+        "label": "Motivational"
+      },
+      {
+        "id": 302,
+        "name": "Fiction",
+        "label": "Fiction"
+      },
+      {
+        "id": 303,
+        "name": "Biography",
+        "label": "Biography"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Comic Books",
+    "label": "Comic Books",
+    "mobileIconUrl": "https://example.com/icons/comics.png",
+    "children": [
+      {
+        "id": 401,
+        "name": "Superheroes",
+        "label": "Superheroes"
+      },
+      {
+        "id": 402,
+        "name": "Manga",
+        "label": "Manga"
+      },
+      {
+        "id": 403,
+        "name": "Graphic Novels",
+        "label": "Graphic Novels"
+      },
+      {
+        "id": 404,
+        "name": "Webcomics",
+        "label": "Webcomics"
+      },
+      {
+        "id": 405,
+        "name": "Indie Comics",
+        "label": "Indie Comics"
+      },
+      {
+        "id": 406,
+        "name": "Classic Comics",
+        "label": "Classic Comics"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "BD",
+    "label": "Bande Dessinée",
+    "mobileIconUrl": "https://example.com/icons/bd.png",
+    "children": [
+      {
+        "id": 501,
+        "name": "Humour",
+        "label": "Humour"
+      },
+      {
+        "id": 502,
+        "name": "Aventure",
+        "label": "Aventure"
+      },
+      {
+        "id": 503,
+        "name": "Histoire",
+        "label": "Histoire"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Podcasts",
+    "label": "Podcasts",
+    "mobileIconUrl": "https://example.com/icons/podcasts.png",
+    "children": [
+      {
+        "id": 601,
+        "name": "News",
+        "label": "News"
+      },
+      {
+        "id": 602,
+        "name": "Technology",
+        "label": "Technology"
+      },
+      {
+        "id": 603,
+        "name": "Comedy",
+        "label": "Comedy"
+      },
+      {
+        "id": 604,
+        "name": "True Crime",
+        "label": "True Crime"
+      },
+      {
+        "id": 605,
+        "name": "History",
+        "label": "History"
+      }
+    ]
+  }
+]
