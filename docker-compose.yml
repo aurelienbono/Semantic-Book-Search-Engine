@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.10.2
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+
+  app:
+    build: .
+    container_name: semantic_search_app
+    environment:
+      - OPEN_API_KEY=${OPEN_API_KEY}
+    ports:
+      - "8000:8000"
+    depends_on:
+      - elasticsearch
+
+volumes:
+  elasticsearch_data:
